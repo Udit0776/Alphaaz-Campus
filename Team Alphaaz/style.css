@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    margin: 0vw 0vw;
+}
+.container{
+    display: flex;
+}
+
+.box {
+    width: 2.7vw;
+    height: 2.7vw;
+    border: 0.2vw solid black;
+    background-color: #1B1B1B;
+    transition: background-color 0.5ms ease;
+    animation: box 10s hover 5s 1 direction fill-mode;
+}
+.box:not(:hover) {
+    transition: background-color 1s ease-in; 
+  }
+
+#box1:hover {
+    background-color: #FFD700;
+}
+
+#box2:hover {
+    background-color: #FF6347;
+}
+
+#box3:hover {
+    background-color: #40E0D0;
+}
+
+#box4:hover {
+    background-color: #FF69B4;
+}
+
+#box5:hover {
+    background-color: #00FF00;
+}
+
+#box6:hover {
+    background-color: #1E90FF;
+}
+
+#box7:hover {
+    background-color: #FF4500;
+}
+
+#box8:hover {
+    background-color: #FFFACD;
+}
+
+#box9:hover {
+    background-color: #00FA9A;
+}
+
+#box10:hover {
+    background-color: #9370DB; 
+}
+
+#box11:hover {
+    background-color: #F0E68C;
+}
+
+#box12:hover {
+    background-color: #FF00FF;
+}
+
+#box13:hover {
+    background-color: #DC143C;
+}
+
+#box14:hover {
+    background-color: #7FFF00;
+}
+
+#box15:hover {
+    background-color: #D2691E;
+}
+
+#box16:hover {
+    background-color: #00FFFF; 
+}
+
+#box17:hover {
+    background-color: #FFDAB9;
+}

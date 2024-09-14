@@ -1,0 +1,145 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #151A1D;
+
+    header{
+        border: 1px solid black;
+        background-color: white;
+        height: 12vh;
+    }
+
+    main{
+        .board{
+            display: flex;
+            border: 1px solid red;
+            background-color: #1E2327;
+            border-radius: 15px;
+            margin-top: 20px;
+            height: 80vh;
+
+            .part1{
+                /* border: 1px solid green; */
+                background-color: transparent;
+                margin: 15px 15px;
+                margin-right: 0px;
+                width: 23vw;
+
+                .search{
+                    /* border: 1px solid brown; */
+                    background-color: #151A1D;
+                    border-radius: 12px;
+                    margin: 14px 19px;
+                    margin-top: 25px;
+                    padding-top: 9px;
+                    padding-left: 10px;
+                    height: 4.7vh;
+
+                    input{
+                        font-size: 14px;
+                        color: white;
+                        border: none;
+                        background-color: transparent;
+                    }
+                    input::placeholder{
+                        color: white;
+                    }
+                }
+
+                .type{
+                    border: 1px solid purple;
+                    background-color: transparent;
+                    margin: 14px 12px;
+                    /* margin-top: 30px; */
+                    padding: 20px;
+                    /* color: white; */
+                    height: 45vh;
+                    
+                    .dash{
+                        background-color: transparent;
+                        /* border: 1px solid red; */
+                        color: white;
+                        border-radius: 12px;
+                        margin-top: 20px;
+                        padding-top: 7px;
+                        padding-left: 18px;
+                        font-size: 18px;
+                        height: 4.5vh;
+                        transition: all 400ms ease-in;
+                        transition: box-shadow 0.3s ease-in-out;
+                    }
+                    .dash:hover {
+                        background: linear-gradient(265.27deg,  #1E2327 55.55%, #34447E 94.17%);
+                        box-shadow: #151A1D;
+                        box-shadow: 4.5px 4.5px 0px rgba(0, 0, 0, 0.2), -4.5px 4.5px 0px rgba(0, 0, 0, 0.2), 4.5px -4.5px 0px rgba(0, 0, 0, 0.2), -4.5px -4.5px 0px rgba(0, 0, 0, 0.2);
+                    }
+
+                    hr{
+                        margin-top: 110px;
+                        border: 2px solid #151A1D;
+                    }
+
+                    .service{
+                        margin-top: 40px;
+                        border: 1px solid white;
+                        height: 19vh;
+
+                        /* .sett{
+                            border: 1px solid white;
+                        }
+
+                        .supp{
+                            border: 1px solid white;
+                        } */
+                    }
+                }
+
+            }
+
+            .part2{
+                border: 1px solid blue;
+                background-color: white;
+                border-radius: 12px;
+                float: right;
+                margin: 15px 18px;
+                margin-left: 0px;
+                width: 77vw;
+                height: 75vh;
+
+                .user{
+                    border: 1px solid pink;
+                    float: right;
+                    margin: 14px 12px;
+                    justify-content: center;
+                    height: 4.5vh;
+                }
+
+                .det{
+                    display: flex;
+                    margin: 10.5vh 2vw;
+                    border: 1px solid brown;
+                    height: 50vh;
+
+                    #detail1{
+                        float: left;
+                        margin: 15px;
+                        /* border: 1 px solid black; */
+                        background-image: url(Image/images.jfif);
+                        background-position: center;
+                        border-radius: 100vw;
+                        height: 20vh;
+                        width: 12vw
+                    }
+    
+                    .detail{
+                        float: right;
+                        margin: 15px;
+                        border: 1px solid purple;
+                        width: 24vw;
+                        height: 20vh;
+                    }
+                }
+            }
+        }
+    }
+
+}
